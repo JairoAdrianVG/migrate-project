@@ -28,7 +28,7 @@ export const Countries:React.FC = () => {
             </label>
           </div>
 
-        {countries.length > 0 ? <ListCountries countries={countries}/> : <h1>Loading</h1>  }
+        {countries.length > 0 ? <ListCountries countries={countries}/> : <div className="mt-5"><h1>Loading</h1></div>   }
     </div>
   )
 }
